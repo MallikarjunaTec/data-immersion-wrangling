@@ -1,0 +1,14 @@
+Column_Name,Data_Type,Non_Null_Count,Missing_Values,Unique_Values,Sample_Value,Business_Relevance
+CustomerID,int64,1000,0,1000,1001,Unique identifier for each customer.
+Region,object,970,30,4,East,"Geographical region of the sale (North, South, East, West)."
+Sales,float64,950,50,950,21708.7798788858,Total revenue generated from the transaction.
+Discount,float64,723,277,3,5.0,Discount percentage applied to the sale.
+Date,object,1000,0,637,2024-02-27 03:21:48.108108104,Timestamp of when the transaction occurred.
+ProductID,int64,1000,0,100,164,Unique identifier for the product sold.
+Quantity,int64,1000,0,99,16,Number of units sold in the transaction.
+Return,int64,1000,0,2,0,Indicator if the product was returned (1) or not (0).
+CustomerType,object,1000,0,3,VIP,"Classification of customer (VIP, New, Returning)."
+SalesChannel,object,1000,0,3,Online,"Where the sale happened (Online, In-Store, Direct)."
+PaymentMethod,object,1000,0,3,Credit Card,"Method used for payment (Cash, Card, etc.)."
+SatisfactionScore,int64,1000,0,10,3,Customer satisfaction rating (1-10).
+ProductCategory,object,1000,0,7,Electronics,"Category of the product (Electronics, Sports, etc.)."
